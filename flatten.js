@@ -9,6 +9,7 @@ let eqArrays = function(arr1, arr2) {
   }
   return true;
 };
+
 let assertArraysEqual = function(arr1, arr2) {
   if (eqArrays(arr1, arr2) === false) {
     console.log('The arrays are not the same.');
