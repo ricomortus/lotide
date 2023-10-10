@@ -1,0 +1,10 @@
+# Ignore node modules
+node_modules/
+
+# Ignore environment variables or secrets
+.env
+
+# Other files/folders you might want to ignore (e.g. logs, IDE-specific files, etc.)
+*.log
+.DS_Store
+.vscode/
