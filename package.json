@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@ricomortus/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/ricomortus/lotide.git"
   },
-  "author": "",
+  "author": "Rico Chow",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ricomortus/lotide/issues"

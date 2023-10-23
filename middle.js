@@ -5,8 +5,8 @@ let middle = function(arr) {
     const middleIndex = Math.floor(arr.length / 2);
     return [arr[middleIndex]];
   } else {
-    const middleIndex1 = arr.length / 2 - 1;
-    const middleIndex2 = arr.length / 2;
+    const middleIndex1 = Math.floor(arr.length / 2) - 1;
+    const middleIndex2 = Math.floor(arr.length / 2);
     return [arr[middleIndex1], arr[middleIndex2]];
   }
 };
