@@ -41,3 +41,5 @@ assertArraysEqual(results2, [1,2,3,4,5]);
 //Test three: last letters of string array
 const results3 = map(words, word => word[word.length - 1]);
 assertArraysEqual(results3, ['d', 'l', 'o', 'r', 'm']);
+
+module.exports = map;
